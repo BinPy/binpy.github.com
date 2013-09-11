@@ -1,2 +1,1 @@
-Official website of BinPy
-~~~~~~~~~~~~~~~~~~~~~~~~~
+<strong>Official website of BinPy</strong>
