@@ -16,6 +16,7 @@ header{
 	border:1px solid black;
 	border-bottom:white;
 	background-image:url('../images/background.png');
+	position: relative;
 }
 
 #name{
@@ -71,6 +72,24 @@ section{
 	color:gray;
 	background:white;
 }
+
+#social{
+	position:absolute;
+	left:20px;
+	bottom:10px;
+}
+
+#facebook{
+	width:45%;
+	float:left;
+	margin-left:5%;
+}
+
+#twitter{
+	width:45%;
+	float:left;
+}
+
 
 footer{
 	font-family:Open Sans;
