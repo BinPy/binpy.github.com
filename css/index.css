@@ -54,6 +54,15 @@ header{
 #cmdTopRight3:hover{
 	color:white;
 }
+#cmdTopRight4{
+	position:absolute;
+	right:40px;
+	top:200px;
+	text-decoration:none;
+}
+#cmdTopRight4:hover{
+	color:white;
+}
 #headline{
 	font-family:Josefin Sans;
 	font-size:30px;
@@ -64,6 +73,19 @@ header{
 	background:rgba(0,0,0,0.3);
 	height:50px;
 	width:25%
+}
+
+#release{
+	font-family:Josefin Sans;
+	font-size:40px;
+	margin-top:150px;
+	margin-left:39%;
+	text-align: center;
+	color:white;
+	padding-top:15px;
+	background:rgba(0,0,0,0.7);
+	height:50px;
+	width:20%
 }
 
 section{
