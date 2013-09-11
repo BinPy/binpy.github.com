@@ -100,3 +100,8 @@ footer{
 	background:black;
 	position: relative;
 }
+
+nav a{
+	margin-right: 10px;
+	text-decoration: none;
+}
