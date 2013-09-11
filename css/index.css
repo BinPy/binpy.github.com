@@ -1,0 +1,82 @@
+body{
+	overflow-x:hidden;
+	width:100%;
+}
+#wrapper{
+	color:black;
+	font-family:Open Sans;
+	overflow-x:hidden;
+	width:100%;
+
+}
+
+header{
+	width:100%;
+	height:550px;
+	border:1px solid black;
+	border-bottom:white;
+	background-image:url('../images/background.png');
+}
+
+#name{
+	margin-top:20px;
+	color:white;
+	margin-left:70px;
+	font-size:30px;
+	font-family:Cuprum;
+}
+
+#cmdTopRight1{
+	position:absolute;
+	right:40px;
+	top:50px;
+	text-decoration:none;
+}
+#cmdTopRight1:hover{
+	color:black;
+}
+#cmdTopRight2{
+	position:absolute;
+	right:40px;
+	top:100px;	
+	text-decoration:none;
+}
+#cmdTopRight2:hover{
+	color:white;
+}
+#cmdTopRight3{
+	position:absolute;
+	right:40px;
+	top:150px;
+	text-decoration:none;
+}
+#cmdTopRight3:hover{
+	color:white;
+}
+#headline{
+	font-family:Josefin Sans;
+	font-size:30px;
+	margin-top:50px;
+	margin-left:40px;
+	color:silver;
+	padding-top:15px;
+	background:rgba(0,0,0,0.3);
+	height:50px;
+	width:25%
+}
+
+section{
+	width:100%;
+	padding:20px;
+	color:gray;
+	background:white;
+}
+
+footer{
+	font-family:Open Sans;
+	color:silver;
+	height:150px;
+	border:1px solid rgb(10,10,10);
+	padding-left:20px;
+	background:black;
+}

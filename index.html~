@@ -1,0 +1,47 @@
+<!doctype HTML>
+<html>
+<head>
+<title>BinPy - Virtualizing Electronics</title>
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1" />
+<script src="javascript/buttons.js"></script>
+<script src="javascript/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="javascript/index.js"></script>
+<script type="text/javascript" src="javascript/google-analytics.js"></script>
+<link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<link rel="stylesheet" type="text/css" href="css/buttons.css" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css "/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cuprum:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div id="wrapper">
+		<header>
+			<p id="name"/>BinPy</p>
+			<a id="cmdTopRight1" href="https://github.com/BinPy/BinPy/" target="_blank" class="button glow button-rounded button">Fork it on GitHub</a>
+			<a id="cmdTopRight2" href="https://binpy.readthedocs.org/en/latest/" target="_blank" class="button glow button-rounded button-highlight">Read the documentation</a>			
+			<a id="cmdTopRight3" href="https://pypi.python.org/pypi/BinPy/" target="_blank" class="button glow button-rounded button-primary">Download from python.org</a>
+			<div id="headline" ><p style="text-align:center;">Virtualizing Electronics</p></div>
+		</header>
+		<section>
+			<h3 class="text-info">What is BinPy?</h3>
+			<p>This package will serve as a base to develop circuit based applications or logical games on top of it. This package does not depend on any external library other than pure Python.</p>
+			<p>To know more <a href="http://binpy.github.io/BinPy/">click here</a>.</p>
+			<h3 class="text-info">Developers</h3>
+			<br/>
+			<table class="table table-condensed">
+				<tr class="success"><th>Name</th><th>Email</th><th>Know More</th></tr>
+				<tr><td>Abhinav Gupta</td><td>aag999in@gmail.com</td><td><a href="https://github.com/abhinavgupta" target="_blank">GitHub</a>&nbsp;<a href="http://abhinavgupta2812.wordpress.com/" target="_blank">Blog</a></td><tr>
+				<tr><td>Sarwar Chahal</td><td>chahal.sarwar98@gmail.com</td><td><a href="https://github.com/livingstore" target="_blank">GitHub</a>&nbsp;<a href="http://techseas.blogspot.in/" target="_blank">Blog</a></td></tr>
+				<tr><td>Sudhanshu Mishra</td><td>mrsud94@gmail.com</td><td><a href="https://github.com/mrsud" target="_blank">GitHub</a">&nbsp;<a href="http://lifelesscodes.blogspot.in/" target="_blank">Blog</a></td></tr>
+			</table>
+		</section>
+		<footer>
+			<p style="margin-top:70px;">&copy; Copyright 2013 Binpy Developers</p>
+		</footer>
+	</div>
+</body>
+</html>
