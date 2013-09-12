@@ -92,7 +92,14 @@ header{
 	width:20%;
 }
 
+#ohloh{
+	position:absolute;
+	right:40px;
+	top:10px;
+}
+
 section{
+	position:relative;
 	width:100%;
 	padding:20px;
 	color:gray;
