@@ -8,3 +8,4 @@ $(document).ready(function(){
         $('#release').animate({opacity:'0.8'},2000, decrease);        
     }
 });		
+
