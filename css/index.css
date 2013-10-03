@@ -12,7 +12,7 @@ body{
 
 header{
 	width:100%;
-	height:550px;
+	height:750px;
 	border:1px solid black;
 	border-bottom:white;
 	background-image:url('../images/background1.png');
@@ -21,7 +21,7 @@ header{
 
 #name{
 	margin-top:20px;
-	color:gray;
+	color:white;
 	margin-left:70px;
 	font-size:30px;
 	font-family:Cuprum;
@@ -69,14 +69,14 @@ header{
 }
 #headline{
 	font-family:Josefin Sans;
-	font-size:30px;
+	font-size:50px;
 	margin-top:50px;
 	margin-left:40px;
 	color:white;
-	padding-top:15px;
-	background:silver;/*rgba(0,0,0,0.3);*/
-	height:50px;
-	width:27%
+	padding-top:25px;
+	background:rgba(0,0,0,0.3);
+	height:80px;
+	width:40%
 }
 
 #release{
