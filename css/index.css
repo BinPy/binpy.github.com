@@ -69,14 +69,15 @@ header{
 }
 #headline{
 	font-family:Josefin Sans;
-	font-size:50px;
-	margin-top:50px;
+	font-size:25px;
+	margin-top:20px;
 	margin-left:40px;
 	color:white;
-	padding-top:25px;
+	padding-top:15px;
 	background:rgba(0,0,0,0.3);
-	height:80px;
-	width:40%
+	height:40px;
+	width:21%;
+	padding-left:30px;
 }
 
 #release{
