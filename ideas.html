@@ -4,9 +4,9 @@
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta property="og:url" content="http://binpy.github.io/" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="BinPy" />
+	<meta property="og:title" content="BinPy GSoC 2014" />
 	<meta property="og:image" content="http://binpy.github.io/images/img2.png" />
-	<meta property="og:description" content="Virtulizing Electronics" />
+	<meta property="og:description" content="Ideas page for Google Summer of Code 2014" />
 	<meta name="keywords" content="binpy,binpy-soc,hardware in python">
 	<link href='//fonts.googleapis.com/css?family=Alegreya+Sans:400' rel='stylesheet' type='text/css'>
 	<link href='//fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700' rel='stylesheet' type='text/css'>
@@ -16,17 +16,18 @@
 
 <body style="font-family: Alegreya Sans;width:80%;margin:auto;">
 	<div style="width:100%;height:60px;background: black;padding-top:20px;padding-left:20px;">
-	<a style="float:right;padding-right: 10px;color:white;" href="http://binpy.github.io">Home</a>
+	<a style="float:right;margin-right: 10px;padding:5px;border:1px solid black;border-radius:3px;background: #009925;color:white;" href="http://binpy.github.io">Home</a>
 	<h1 style="font-family:Cuprum;margin-top:0px;color:white;">BinPy</h1>
 	</div>
 	<div style="text-align:center;">
 		<h1 style="font-size:320%;color:#3498db;font-family:Alegreya Sans SC"><span style="color:#3369E8;">Google</span> <span style="color:#D50F25;">Summer</span> <span style="color:#EEB211;">of</span> <span style="color:#009925;">Code</span> 2014 <span style="color:#D50F25;">Ideas</span></h1>
 	</div>
 	<br>
-	<a style="float:right;padding-right:10px;" target="_blank" href="http://binpy.github.io/BinPy/">How to use BinPy</a>
+	<a id="howtouse" style="float:right;padding-right:10px;padding:8px;border:1px solid white;border-radius:5px;background: #009925;color:white;" target="_blank" href="http://binpy.github.io/BinPy/">How to use BinPy</a>
 	<div>
 		<h1 style="font-size:200%;color:#e74c3c;font-family:Alegreya Sans SC;">Introduction</h1>
 		<p style="margin-left:3%;font-size:20px;">It is a library which will serve as a base to develop circuit based applications or logical games on top of it. This package does not depend on any external library other than pure Python.<br/>We want to extend the hardware programming concepts to Python. We are looking for extremely motivated developers who are willing to break amazing things.</p>
+		<p style="margin-left:3%;font-size:20px;">We look forward to add more and more features to this project which simplifies user experience in the world of hardware designing and simulation.</p>
 	</div>
 	<div>
 	<br/><br/>
@@ -34,18 +35,24 @@
 	<div>
 		<h1 style="font-size:140%;color:#e74c3c;font-family:Alegreya Sans SC;">1. Extending Libraries and Classes</h1>
 		<p style="margin-left:3%;font-size:20px;">
-			<span style="font-family:"><strong>Description : </strong> The scope of algorithms and gates used in hardware design are numerous.
+			<strong>Description : </strong> The scope of algorithms and gates used in hardware design are numerous.
 			Some basic work has been done and important gates, ICs and algorithms have been implemented but we would like 
 			to further expand our libraries to various other aspects of digital electronics. Visit our homepage 
 			<a target="_blank" href="http://binpy.github.io">BinPy</a> to view some of the work already done.<br/><br/>
 			For instance, you can develop more integrated circuit libraries as the no of ICs are numerous, also you can develop 
 			on vaious algorithms used in hardware design to reduce the circuit size so that user can directly develop
 			on that without having to reduce the size of circuit himself. You can see our IC classes and algorithms
-			for example.<br/>
-
-			<br/><br/>
+			for example.<br/><br/>
+			Addition of following features will increase the use cases of the project.
+				<ul style="margin-left:3%;font-size:20px;">
+					<li>Introduction of problem solving algorithms</li>
+					<li>Addition of Microprocessors and Analog Devices</li>
+					<li>Generation of Verilog code from design</li>
+				</ul>			
+			<br/></p>
+		<p style="margin-left:3%;font-size:20px;">
 			<strong>Requirements : </strong>Experience in Python and hardware design<br/>
-			<strong> Mentors: </strong>Abhinav Gupta and Anant Kamath
+			<strong> Contacts: </strong><a href="mailto:aag999in@gmail.com">Abhinav Gupta</a>, <a href="mailto:kamathanant@gmail.com">Anant Kamath</a> and <a href="mailto:mrsud94@gmail.com">Sudhanshu Mishra</a>
 		</p>
 	</div>
 	<br>
@@ -54,11 +61,11 @@
 		<h1 style="font-size:140%;color:#e74c3c;font-family:Alegreya Sans SC;">2. Circuit Design Software</h1>
 		<p style="margin-left:3%;font-size:20px;">
 			<strong>Description : </strong> Creating a GUI using Python and Qt where you can directly drag and drop elemets like wires , gates, ICs, etc and connect them to our Python code. This will reduce the amount of programming to be done by the user by a huge margin so that even amature programmers and even the hardware designers can start off easily.<br/>
-			Ultimate goal of this software is to generate Verilog HDL code form the design itself.
+			Ultimate goal of this software is to generate Verilog HDL code from the design itself.
 			<br/><br/>
 
 			<strong>Requirements : </strong>Experience in Qt and Python<br/>
-			<strong> Mentors: </strong>Abhinav Gupta and Salil Kapur
+			<strong> Contacts: </strong><a href="mailto:aag999in@gmail.com">Abhinav Gupta</a>, <a href="mailto:salilkapur@gmail.com">Salil Kapur</a> and <a href="mailto:chahal.sarwar93@gmail.com">Sarwar Chahal</a>
 		</p>
 		<img src="images/img1.jpg" style="width:80%;margin-left:10%;border:4px solid black;" />
 	</div>
@@ -72,14 +79,14 @@
 			<br/><br/>
 
 			<strong>Requirements : </strong>Experience in Python<br/>
-			<strong> Mentors: </strong>Anant Kamath
+			<strong> Contacts: </strong><a href="mailto:kamathanant@gmail.com">Anant Kamath</a> and <a href="mailto:mrsud94@gmail.com">Sudhanshu Mishra</a>
 		</p>
 	</div>
 	<br>
 	<br>
 	<div><p style="font-size:120%">These ideas are just for reference but we would like developers to come up with their own ideas on various algorithms and circuits that are being used in harware design so that user can start developing on top of these.</p></div>
 	<footer>
-			<div style="padding-right:10px;float:right;margin-top:5px;"><a target="_blank" href="mailto:binpylib@gmail.com">Mail</a>&nbsp;&nbsp;<a target="_blank" href="https://webchat.freenode.net/?channels=binpy-soc">IRC</a></div>
+			<div style="padding-right:10px;float:right;margin-top:5px;font-size:20px;font-weight:bold;"><a target="_blank" href="mailto:binpylib@gmail.com">E-Mail</a>&nbsp;&nbsp;<a target="_blank" href="https://webchat.freenode.net/?channels=binpy-soc">IRC</a></div>
 			<p style="margin-top:40px;">&copy; Copyright 2014 Binpy Developers</p>
 			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 			<input type="hidden" name="cmd" value="_donations">
