@@ -10,58 +10,75 @@
 	<meta name="keywords" content="binpy,binpy-soc,hardware in python">
 	<link href='//fonts.googleapis.com/css?family=Alegreya+Sans:400' rel='stylesheet' type='text/css'>
 	<link href='//fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
 	<link href="http://fonts.googleapis.com/css?family=Cuprum:400,700" rel="stylesheet" type="text/css">
 </head>
 
 <body style="font-family: Alegreya Sans;width:80%;margin:auto;">
 	<div style="width:100%;height:60px;background: black;padding-top:20px;padding-left:20px;"><h1 style="font-family:Cuprum;margin-top:0px;color:white;">BinPy</h1></div>
 	<div style="text-align:center;">
-		<h1 style="font-size:320%;color:#3498db;font-family:Alegreya Sans SC">Google Summer of Code 2014 Ideas</h1>
+		<h1 style="font-size:320%;color:#3498db;font-family:Alegreya Sans SC"><span style="color:#3369E8;">Google</span> <span style="color:#D50F25;">Summer</span> <span style="color:#EEB211;">of</span> <span style="color:#009925;">Code</span> 2014 <span style="color:#D50F25;">Ideas</span></h1>
 	</div>
 	<br>
-	<a href="http://binpy.github.io/BinPy/">How to use BinPy</a>
 	<div>
-		<h1 style="font-size:160%;color:#e74c3c;font-family:Alegreya Sans SC;">1. Extending Libraries</h1>
-		<p style="margin-left:3%;font-size:16x;">
-			<strong>Description : </strong> The scope of algorithms and gates used in hardware design are numerous.
-			Some basic work has been done and important gates and algorithms have been implemented but we would like 
-			to further expand our libraries to various other aspects of digital electronics.Visit our homepage 
-			<link href="http://binpy.github.io">BinPy</link>to view some of the work already done. For instance,
-			you can develop more Integrated Circuit libraries as the no of ICs are numerous, also you develop 
-			on vaious algorithms used in hardware design to reduce the circuits so that user can directly develop
-			on that without having to reduce the size of circuit himself.You can see our Ics lbraires and algorithms
-			for example.
-			<br><br>
-			<strong>Requirements : </strong>Experience in python and hardware design.
-			<strong> Mentors: </strong>Sarwar Chahal and Sudhanshu Mishra
+		<h1 style="font-size:160%;color:#e74c3c;font-family:Alegreya Sans SC;">1. Extending Libraries and Classes</h1>
+		<p style="margin-left:3%;font-size:20px;">
+			<span style="font-family:"><strong>Description : </strong> The scope of algorithms and gates used in hardware design are numerous.
+			Some basic work has been done and important gates, ICs and algorithms have been implemented but we would like 
+			to further expand our libraries to various other aspects of digital electronics. Visit our homepage 
+			<a target="_blank" href="http://binpy.github.io">BinPy</a> to view some of the work already done.<br/><br/>
+			For instance, you can develop more integrated circuit libraries as the no of ICs are numerous, also you can develop 
+			on vaious algorithms used in hardware design to reduce the circuit size so that user can directly develop
+			on that without having to reduce the size of circuit himself. You can see our IC classes and algorithms
+			for example.<br/>
+
+			<br/><br/>
+			<strong>Requirements : </strong>Experience in Python and hardware design.<br/>
+			<strong> Mentors: </strong>Abhinav Gupta and Anant Kamath
 		</p>
 	</div>
 	<br>
+
 	<div>
-		<h1 style="font-size:160%;color:#e74c3c;font-family:Alegreya Sans SC;">2. Simulation</h1>
-		<p style="margin-left:3%;font-size:16px;">
-			<strong>Description : </strong> Create a graphic simulation of the built circuit that compiles the code and displays the features of the circuit in real-time just like Xilinx and ModelSim software.  
-			<br><br>
-			<strong>Requirements : </strong>Experience in Qt and python.
-			<strong> Mentors: </strong>Sudhanshu Mishra and Abhinav Gupta
-		</p>
-		<img src="images/img2.png" style="width:80%;margin-left:10%;border:4px solid black;" />
-	</div>
-	<br>
-	
-	<div>
-		<h1 style="font-size:160%;color:#e74c3c;font-family:Alegreya Sans SC;">3. Circuit Design Software</h1>
-		<p style="margin-left:3%;font-size:16px;">
+		<h1 style="font-size:160%;color:#e74c3c;font-family:Alegreya Sans SC;">2. Circuit Design Software</h1>
+		<p style="margin-left:3%;font-size:20px;">
 			<strong>Description : </strong> Creating a GUI using Python and Qt where you can directly drag and drop elemets like wires , gates, ICs, etc and connect them to our Python code. This will reduce the amount of programming to be done by the user by a huge margin so that even amature programmers and even the hardware designers can start off easily.<br/>
 			Ultimate goal of this software is to generate Verilog HDL code form the design itself.
 			<br/><br/>
 
 			<strong>Requirements : </strong>Experience in Qt and python.
-			<strong> Mentors: </strong>Sarwar Chahal and Abhinav Gupta
+			<strong> Mentors: </strong>Abhinav Gupta and Salil Kapur
 		</p>
 		<img src="images/img1.jpg" style="width:80%;margin-left:10%;border:4px solid black;" />
 	</div>
 	<br>
+
+	<div>
+		<h1 style="font-size:160%;color:#e74c3c;font-family:Alegreya Sans SC;">3. Documentation, Tutorial and Integration with Travis</h1>
+		<p style="margin-left:3%;font-size:20px;">
+			<strong>Description : </strong> BinPy is a great tool for hardware designers and novice programmers who want to design various complicated circuits. It reduces the work effort required in other simulation tools present right now by many folds. It is a great way to bring hardware to masses through python.<br/>
+			But this BinPy API lacks a good tutorial section. So most of the time, people find it difficult to start their projects with BinPy. We would like someone to study BinPy API properly and make a proper tutorial and documentation for BinPy.<br/>
+			Also adding extensive testing and integrating with Travis will be a priority.Travis CI is a hosted continuous integration platform that is free for all open source projects hosted on Github. With just a file called .travis.yml containing some information about our project, we can trigger automated builds with every change to our code base in the master branch, other branches or even a pull request.
+			<br/><br/>
+
+			<strong>Requirements : </strong>Experience in Python and .
+			<strong> Mentors: </strong>Anant Kamath
+		</p>
+	</div>
+	<br>
+
+	<div>
+		<h1 style="font-size:160%;color:#e74c3c;font-family:Alegreya Sans SC;">4. Simulation</h1>
+		<p style="margin-left:3%;font-size:20px;">
+			<strong>Description : </strong> Create a graphic simulation of the built circuit that compiles the code and displays the features of the circuit in realtime just like XILINX and ModelSim software.  
+			<br><br>
+			<strong>Requirements : </strong>Experience in Qt and python.
+			<strong> Mentors: </strong>Salil Kapur and Abhinav Gupta
+		</p>
+		<img src="images/img2.png" style="width:80%;margin-left:10%;border:4px solid black;" />
+	</div>
+	<br>
+	
 	
 	<div><p style="font-size:120%">These ideas are just for reference but we would like developers to come up with their own ideas on various algorithms and circuits that are being used in harware design so that user can start developing on top of these.</p></div>
 	<footer>
@@ -78,6 +95,7 @@
 			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 			</form>
 			</div>
+				<a style="float:right;padding-right:10px;" target="_blank" href="http://binpy.github.io/BinPy/">How to use BinPy</a>
 				<nav style="text-align:center;">
 					<a href="resources/LICENSE.txt"<li>License</li></a>
 					<a href="https://www.ohloh.net/p/BinPy"<li>Ohloh</li></a>
@@ -101,6 +119,10 @@
 		}
 		footer a:hover{
 			color:#3498db;
+		}
+		a{
+			color:#e74c3c;
+			text-decoration: none;
 		}
 		</style>
 </body>
