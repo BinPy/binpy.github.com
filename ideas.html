@@ -12,30 +12,29 @@
 	<link href='//fonts.googleapis.com/css?family=Alegreya+Sans+SC:400,700' rel='stylesheet' type='text/css'>
 	<link href='//fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
 	<link href="http://fonts.googleapis.com/css?family=Cuprum:400,700" rel="stylesheet" type="text/css">
+        <link href="css/ideas.css" rel="stylesheet" type="text/css">
 </head>
 
-<body style="font-family: Alegreya Sans;width:80%;margin:auto;">
-	<div style="width:100%;height:60px;background: black;padding-top:20px;padding-left:20px;">
-	<div style="float:right;margin-right: 10px;">
-	<a style="padding:5px;border:1px solid black;border-radius:3px;background: #009925;color:white;" href="http://binpy.github.io">Home</a>
-	<a target="_blank" style="padding:5px;border:1px solid black;border-radius:3px;background: #009925;color:white;" href="http://pythonhosted.org/BinPy/">Documentation</a>
-	<a target="_blank" style="padding:5px;border:1px solid black;border-radius:3px;background: #009925;color:white;" href="https://github.com/BinPy/BinPy/">Source</a>
+<body>
+	<div class="head">          
+            <a class="greenbutton" href="http://binpy.github.io">Home</a>
+            <a target="_blank" class="greenbutton" href="http://pythonhosted.org/BinPy/">Documentation</a>
+            <a target="_blank" class="greenbutton" href="https://github.com/BinPy/BinPy/">Source</a>          
+          <h1>BinPy</h1>
 	</div>
-	<h1 style="font-family:Cuprum;margin-top:0px;color:white;">BinPy</h1>
-	</div>
-	<div style="text-align:center;">
-		<h1 style="font-size:320%;color:#3498db;font-family:Alegreya Sans SC"><span style="color:#3369E8;">Google</span> <span style="color:#D50F25;">Summer</span> <span style="color:#EEB211;">of</span> <span style="color:#009925;">Code</span> 2014 <span style="color:#D50F25;">Ideas</span></h1>
+	<div class="headline">
+		<h1><span style="color:#3369E8;">Google</span> <span style="color:#D50F25;">Summer</span> <span style="color:#EEB211;">of</span> <span style="color:#009925;">Code</span> 2014 <span style="color:#D50F25;">Ideas</span></h1>
 	</div>
 	<br>
-	<a id="howtouse" style="float:right;padding-right:10px;padding:8px;border:1px solid white;border-radius:5px;background: #009925;color:white;" target="_blank" href="http://binpy.github.io/BinPy/">How to use BinPy</a>
+	<a id="howtouse" class="greenbutton" target="_blank" href="http://binpy.github.io/BinPy/">How to use BinPy</a>
 	<div id="introduction">
-		<h1 style="font-size:200%;color:#e74c3c;font-family:Alegreya Sans SC;">Introduction</h1>
-		<p style="margin-left:3%;font-size:20px;">It is a library which will serve as a base to develop circuit based applications and educational software on top of it. BinPy is a clear representation of fundamentals. Everything has been written from scratch such as gates, logical operations, etc. This package does not depend on any external library other than pure Python.<br/>We want to extend the hardware programming concepts to Python. We are looking for extremely motivated developers who are willing to break amazing things.</p>
-		<p style="margin-left:3%;font-size:20px;">We look forward to add more and more features to this project which simplifies user experience in the world of hardware designing and simulation.</p>
+		<h1>Introduction</h1>
+		<p>It is a library which will serve as a base to develop circuit based applications and educational software on top of it. BinPy is a clear representation of fundamentals. Everything has been written from scratch such as gates, logical operations, etc. This package does not depend on any external library other than pure Python.<br/>We want to extend the hardware programming concepts to Python. We are looking for extremely motivated developers who are willing to break amazing things.</p>
+		<p>We look forward to add more and more features to this project which simplifies user experience in the world of hardware designing and simulation.</p>
 	</div>
 	<div id="getting started">
-		<h1 style="font-size:200%;color:#e74c3c;font-family:Alegreya Sans SC;">Getting Started</h1>
-		<p style="margin-left:3%;font-size:20px;">We use GitHub for project management and collaborations.<br/>
+		<h1>Getting Started</h1>
+		<p>We use GitHub for project management and collaborations.<br/>
 		Setting up development environment for BinPy is pretty easy. You just need to have Python installed on your computer.<br/><br/>
 		<strong>Install using pip</strong><br/><br/>
 		sudo apt-get install pip setuptools ipython<br/>
@@ -49,15 +48,15 @@
 		That's all! Start contributing!<br/><br/>
 		<span style="color:#1abc9c;">For further queries mail us at binpylib@gmail.com or join our Google group(binpy@googlegroups.com)</span>
 		</p>
-		<h1 style="font-size:100%;color:#e74c3c;font-family:Alegreya Sans SC;margin-left:3%;">Example</h1>
+		<h3>Example</h3>
 		<img src="images/example.png" style="margin-left:3%;"/>
 	
 	</div>
 	<br/><br/>
-	<h1 style="font-size:200%;color:#e74c3c;font-family:Alegreya Sans SC;">Project Ideas</h1>
+	<h1>Project Ideas</h1>
 	<div id="idea-1">
-		<h1 style="font-size:140%;color:#e74c3c;font-family:Alegreya Sans SC;">1. Extending Core Libraries and Classes</h1>
-		<p style="margin-left:3%;font-size:20px;">
+		<h2>1. Extending Core Libraries and Classes</h2>
+		<p>
 			<strong>Description : </strong> The scope of algorithms and gates used in hardware design are numerous.
 			Some basic work has been done and important gates, ICs and algorithms have been implemented but we would like 
 			to further expand our libraries to various other aspects of digital electronics. Visit our homepage 
@@ -67,13 +66,14 @@
 			on that without having to reduce the size of circuit himself. You can see our IC classes and algorithms
 			for example.<br/><br/>
 			Addition of following features will increase the use cases of the project.
-				<ul style="margin-left:3%;font-size:20px;">
-					<li>Introduction of problem solving algorithms</li>
-					<li>Addition of Microprocessors and Analog Devices</li>
-					<li>Generation of Verilog code from design</li>
-				</ul>			
-			<br/></p>
-		<p style="margin-left:3%;font-size:20px;">
+			<ul>
+                          <li>Introduction of problem solving algorithms</li>
+                          <li>Addition of Microprocessors and Analog Devices</li>
+                          <li>Generation of Verilog code from design</li>
+			</ul>			
+			<br/>
+                </p>
+		<p>
 			<strong>Difficulty : </strong>Medium<br/>
 			<strong>Requirements : </strong>Experience in Python and hardware design<br/>
 			<strong> Contacts: </strong><a href="mailto:aag999in@gmail.com">Abhinav Gupta</a> and <a href="mailto:jayrambhia777@gmail.com">Jay Rambhia</a></a>
@@ -82,23 +82,23 @@
 	<br>
 
 	<div id="idea-2">
-		<h1 style="font-size:140%;color:#e74c3c;font-family:Alegreya Sans SC;">2. Circuit Design Software</h1>
-		<p style="margin-left:3%;font-size:20px;">
+		<h2>2. Circuit Design Software</h2>
+		<p>
 			<strong>Description : </strong> Creating a GUI using Python and Qt where you can directly drag and drop elemets like wires , gates, ICs, etc and connect them to our Python code. This will reduce the amount of programming to be done by the user by a huge margin so that even amature programmers and even the hardware designers can start off easily.<br/>
 			There's a free and open source software called <a href="http://www.kicad-pcb.org/" target="_blank" >KiCad</a> which is very useful in designing PCBs. But it doesn't have feature to simulate the design. We want to start with a simple circuit designing software which should also be capable of realtime simulation.<br/>
 			Ultimate goal of this software is to generate Verilog HDL code from the design itself.<br/><br/>
 			Here are few type of simulations you can work on:
-			<ul style="margin-left:3%;font-size:20px;">
-			<li>Transistor simulation – low-level transistor-simulation of a schematic/layout's behavior, accurate at device-level.</li>
-			<li>Logic simulation – digital-simulation of an RTL or gate-netlist's digital (boolean 0/1) behavior, accurate at boolean-level.</li>
-			<li>Behavioral Simulation – high-level simulation of a design's architectural operation, accurate at cycle-level or interface-level.</li>
-			<li>Hardware emulation – Use of special purpose hardware to emulate the logic of a proposed design. Can sometimes be plugged into a system in place of a yet-to-be-built chip; this is called in-circuit emulation.
-			Technology CAD simulate and analyze the underlying process technology. Electrical properties of devices are derived directly from device physics.</li>
-			<li>Electromagnetic field solvers, or just field solvers, solve Maxwell's equations directly for cases of interest in IC and PCB design. They are known for being slower but more accurate than the layout extraction above.</li>
+			<ul>
+                          <li>Transistor simulation – low-level transistor-simulation of a schematic/layout's behavior, accurate at device-level.</li>
+                          <li>Logic simulation – digital-simulation of an RTL or gate-netlist's digital (boolean 0/1) behavior, accurate at boolean-level.</li>
+                          <li>Behavioral Simulation – high-level simulation of a design's architectural operation, accurate at cycle-level or interface-level.</li>
+                          <li>Hardware emulation – Use of special purpose hardware to emulate the logic of a proposed design. Can sometimes be plugged into a system in place of a yet-to-be-built chip; this is called in-circuit emulation.
+                          Technology CAD simulate and analyze the underlying process technology. Electrical properties of devices are derived directly from device physics.</li>
+                          <li>Electromagnetic field solvers, or just field solvers, solve Maxwell's equations directly for cases of interest in IC and PCB design. They are known for being slower but more accurate than the layout extraction above.</li>
 			</ul>
 			<br/>
 		</p>
-		<p style="margin-left:3%;font-size:20px;">
+		<p>
 			<strong>Difficulty : </strong>Hard<br/>
 			<strong>Requirements : </strong>Experience in Qt and Python<br/>
 			<strong> Contacts: </strong><a href="mailto:foohimanshu@gmail.com">Himanshu Singh</a> and <a href="mailto:subodhkolhe31@gmail.com">Subodh Kohle</a>
@@ -108,11 +108,11 @@
 	<br>
 
 	<div id="idea-3">
-		<h1 style="font-size:140%;color:#e74c3c;font-family:Alegreya Sans SC;">3. Development of Interactive Educational Software</h1>
-		<p style="margin-left:3%;font-size:20px;">
+		<h2>3. Development of Interactive Educational Software</h2>
+		<p>
 			<strong>Description : </strong> While creating BinPy, it was always kept in mind to make it as descriptive as possible. Since all the components have been made from scratch, developing an educational software to teach people electronics is a very good idea.<br/><br/>
 			Following features can be implemented in the software:
-			<ul style="margin-left:3%;font-size:20px;">
+			<ul>
 				<li>Demonstration of things like working of gates, flip flops, counters and many other components will enrich people's understanding of electronics. Above all it will be more effective if they do it on their own.</li>
 				<li>The user interface should be clean and simple just like a bread board where users put components and connect them with ease.</li>
 				<li>Current flow should be visible at intermediate stages.</li>
@@ -120,15 +120,15 @@
 			</ul>
 			<br/>
 		</p>
-		<p style="margin-left:3%;font-size:20px;">
+		<p>
 			<strong>Difficulty : </strong>Medium<br/>
 			<strong>Requirements : </strong>Experience in Qt and Python<br/>
 			<strong> Contacts: </strong><a href="mailto:subodhkolhe31@gmail.com">Subodh Kohle</a> and <a href="mailto:jayrambhia777@gmail.com">Jay Rambhia</a>
 		</p>
 	</div>
 	<div id="idea-4">
-		<h1 style="font-size:140%;color:#e74c3c;font-family:Alegreya Sans SC;">4. Documentation, Examples and Tutorials</h1>
-		<p style="margin-left:3%;font-size:20px;">
+		<h2>4. Documentation, Examples and Tutorials</h2>
+		<p>
 			<strong>Description : </strong> BinPy is a great tool for hardware designers and novice programmers who want to design various complicated circuits. It reduces the work effort required in other simulation tools present right now by many folds. It is a great way to bring hardware to masses through python. But this BinPy API lacks a good tutorial section. So most of the time, people find it difficult to start their projects with BinPy. We would like someone to study BinPy API properly and make a proper tutorial and documentation for BinPy.<br/><br/>
 			<strong>Difficulty : </strong>Easy<br/>
 			<strong>Requirements : </strong>Experience in Python<br/>
@@ -138,7 +138,7 @@
 	<br>
 	<br>
 	<div><p style="font-size:120%">These ideas are just for reference but we would like developers to come up with their own ideas on various algorithms and circuits that are being used in harware design so that user can start developing on top of these.</p></div>
-	<footer>
+	<div class="footer">
 			<div style="padding-right:10px;float:right;margin-top:5px;font-size:20px;font-weight:bold;"><a target="_blank" href="mailto:binpylib@gmail.com">E-Mail</a>&nbsp;&nbsp;<a target="_blank" href="https://webchat.freenode.net/?channels=binpy-soc">IRC</a></div>
 			<p style="margin-top:40px;">&copy; Copyright 2014 Binpy Developers</p>
 			<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -152,37 +152,15 @@
 			<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 			</form>
-			<nav style="text-align:center;">
-					<a href="resources/LICENSE.txt"<li>License</li></a>
-					<a href="https://www.ohloh.net/p/BinPy"<li>Ohloh</li></a>
-					<a id="pypi" href="https://pypi.python.org/pypi/BinPy"<li>PyPi</li></a>
-				</nav>
+			<div class="nav" style="text-align:center;">
+					<a href="resources/LICENSE.txt">License</a>
+					<a href="https://www.ohloh.net/p/BinPy">Ohloh</a>
+					<a id="pypi" href="https://pypi.python.org/pypi/BinPy">PyPi</a>
+				</div>
 			</div>
 			</br>
 				
-		</footer>
-		<style>
-		footer{
-			font-family:DejaVu Sans;
-			color:white;
-			height:140px;
-			border:1px solid rgb(10,10,10);
-			padding-left:20px;
-			background:black;
-			position: relative;
-			font-family:Alegreya Sans;
-		}
-		footer a{
-			text-decoration: none;
-			color:white;
-		}
-		footer a:hover{
-			color:#3498db;
-		}
-		a{
-			color:#e74c3c;
-			text-decoration: none;
-		}
-		</style>
+		</div>
+
 </body>
 </html>
