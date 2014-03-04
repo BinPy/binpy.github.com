@@ -7,5 +7,8 @@
 #
 # This file is up-to-date if the command git log --format="%aN <%aE>" | sort -u
 # gives no duplicates.
+sarwarc <chahal.sarwar98@gmail.com> LivingStore <livingstore@livingstore.(none)> 
 sarwarc <chahal.sarwar98@gmail.com> Sarwar Chahal <livingstore@users.noreply.github.com>
+sarwarc <chahal.sarwar98@gmail.com> Sarwar Chahal <sarwarc@users.noreply.github.com>
+sarwarc <chahal.sarwar98@gmail.com> livingstore <chahal.sarwar98@gmail.com>
 
